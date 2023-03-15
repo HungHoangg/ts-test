@@ -1,0 +1,98 @@
+.management-wrapper-modal {
+  .ant-modal-content {
+    padding: 0px 32px !important;
+  }
+  .ant-modal-header {
+    padding: 32px 0px;
+    border-color: #c8cfdb;
+    border-bottom: 1px solid #f0f0f0;
+    .ant-modal-title {
+      font-family: var(--primary-font-family-bold);
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #292c38;
+    }
+  }
+  .ant-modal-body {
+    padding: 24px 0px 0px;
+  }
+  .ant-modal-footer {
+    padding: 10px 0px;
+  }
+  .ant-modal-close {
+    top: 20px;
+    right: 22px;
+  }
+  .management-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    border-top: 1px solid #c8cfdb;
+  }
+}
+
+.close-button {
+  background: #dbe9ff;
+  color: #1e7cba;
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: center;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  height: 44px;
+  padding: 8.4px 15px;
+  border-radius: 8px;
+  min-width: 100px;
+  border: none !important;
+  font-size: 16px;
+}
+
+.ant-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-variant: tabular-nums;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 12px 11px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.ant-picker {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  padding: 14.5px 11px 14.5px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  transition: border 0.3s, box-shadow 0.3s;
+}

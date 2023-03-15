@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.management-layout {
+  background: #ffffff;
+  padding: 24px 32px;
+}
+
+.management-layout-header {
+  padding-bottom: 30px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #c8cfdb;
+  flex-wrap: wrap;
+}
+
+.ant-modal-body {
+  padding: 24px 0 24px 0 !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
